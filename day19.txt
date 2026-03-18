@@ -1,0 +1,67 @@
+Question 1
+Marks: 1/1
+
+even odd
+Write a JavaScript function named checkOddEven that takes a number as a parameter and logs whether the number is odd or even to the console.
+
+Requirements:
+
+Define a function named checkOddEven that takes a parameter number. 
+
+Log the result to the console.Your goal is to implement the checkOddEven function and test it with different numbers.
+
+Your answer
+
+// write your solution here
+
+function checkOddEven(number) {
+    if (number % 2 === 0){
+        console.log(number + " is even.");
+    } else {
+        console.log(number + " is odd.");
+    }
+}
+
+
+checkOddEven(5);
+checkOddEven(10);
+checkOddEven(7);
+checkOddEven(2);
+Comment:
+
+All 2 test cases passed successfully.
+
+Question 2
+Marks: 1/1
+
+Repeat Character n number of times
+getProgramInputs() - is an inbuilt custom javascript function which we have created that automatically gets the input from the test cases & stores it as an array (No need to write code to get input from the user)
+
+Instructions: Write a function repeatCharacter(character, count) that takes a character and a number as input and returns a string with the character repeated the specified number of times.
+
+Hints:
+
+Declare a variable result and initialize it as an empty string.
+Use a for loop to iterate count times.
+In each iteration, append the character to the result string.
+Return the result string as the output of the function.
+Your answer
+
+input_array = getProgramInputs();
+
+var character = input_array[0];
+var count = Number(input_array[1]);
+
+function repeatCharacter(character, count) {
+    // Add your code below this line
+    let result = "";
+
+    for (let i = 0; i < count; i++){
+        result += character;
+    }
+
+    return result;
+}
+
+var output = repeatCharacter(character, count);
+console.log(output);
