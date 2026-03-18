@@ -1,0 +1,7 @@
+E:\Milestone\milestone\milestone\bin\Debug\milestone.exe.config
+E:\Milestone\milestone\milestone\bin\Debug\milestone.exe
+E:\Milestone\milestone\milestone\bin\Debug\milestone.pdb
+E:\Milestone\milestone\milestone\obj\Debug\milestone.csproj.AssemblyReference.cache
+E:\Milestone\milestone\milestone\obj\Debug\milestone.csproj.CoreCompileInputs.cache
+E:\Milestone\milestone\milestone\obj\Debug\milestone.exe
+E:\Milestone\milestone\milestone\obj\Debug\milestone.pdb
