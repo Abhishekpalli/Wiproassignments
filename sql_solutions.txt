@@ -1,0 +1,34 @@
+Question 1
+Marks: 1/1
+
+Books Priced at $10 and Above
+Write an SQL query to retrieve the book titles and customer names for the books priced at $10 and above that have been ordered. Use the goodreads and orders tables
+
+Your answer
+
+SELECT 
+    g.book_title,
+    o.customer_id -- Assuming 'customer_id' represents the customer name here, 
+                  -- as there is no 'customer_name' column in the provided tables.
+FROM goodreads g
+JOIN orders o ON g.book_id = o.book_id
+WHERE g.price >= 10;
+
+Question 2
+Marks: 1/1
+
+Total Quantity of Spare Parts for a Vehicle Model
+We have a table named SpareParts that contains information about various spare parts, including the quantity available and the vehicle model they belong to.
+
+Now, write a SQL query to get the total quantity of all spare parts for a particular vehicle model.
+
+Sample Output:
+
+TotalQuantity
+35
+
+Your answer
+
+SELECT SUM(Quantity) AS TotalQuantity
+FROM spareparts
+WHERE Model = 'four';
